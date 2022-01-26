@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="zh-Hant-TW">
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+	<title>Kartina Kids</title>
+
+	<script type="text/javascript" src="src/js/jquery-3.2.1.min.js"></script>
+	<script type="text/javascript" src="src/js/dynamics.min.js"></script>
+
+	<script type="text/javascript" src="src/js/flex-gallery.js"></script>
+	<link rel="stylesheet" type="text/css" href="src/css/flex-gallery.css">
+</head>
+
+<body style="margin: 0;">
+	<div id="container"></div>
+
+	<script type="text/javascript">
+		let data = {
+			"images": [
+				"src/media/1.png",
+				"src/media/2.png",
+				"src/media/3.png",
+				"src/media/4.png",
+				"src/media/5.png",
+				"src/media/6.png",
+				"src/media/7.png",
+				"src/media/8.png",
+				"src/media/9.png",
+				"src/media/10.png",
+				"src/media/11.png",
+				"src/media/12.png",
+				"src/media/13.png",
+				"src/media/1.png",
+				"src/media/2.png",
+				"src/media/3.png",
+				"src/media/4.png",
+				"src/media/5.png",
+				"src/media/6.png",
+				"src/media/7.png",
+				"src/media/8.png",
+				"src/media/9.png",
+				"src/media/10.png",
+				"src/media/11.png",
+				"src/media/12.png",
+				"src/media/13.png",
+			],
+			"links": [
+				"src/media/1.png",
+				"src/media/2.png",
+				"src/media/3.png",
+				"src/media/4.png",
+				"src/media/5.png",
+				"src/media/6.png",
+				"src/media/7.png",
+				"src/media/8.png",
+				"src/media/9.png",
+				"src/media/10.png",
+				"src/media/11.png",
+				"src/media/12.png",
+				"src/media/13.png",
+				"src/media/1.png",
+				"src/media/2.png",
+				"src/media/3.png",
+				"src/media/4.png",
+				"src/media/5.png",
+				"src/media/6.png",
+				"src/media/7.png",
+				"src/media/8.png",
+				"src/media/9.png",
+				"src/media/10.png",
+				"src/media/11.png",
+				"src/media/12.png",
+				"src/media/13.png",
+			],
+			"texts": [
+				"src/media/1.png",
+				"src/media/2.png",
+				"src/media/3.png",
+				"src/media/4.png",
+				"src/media/5.png",
+				"src/media/6.png",
+				"src/media/7.png",
+				"src/media/8.png",
+				"src/media/9.png",
+				"src/media/10.png",
+				"src/media/11.png",
+				"src/media/12.png",
+				"src/media/13.png",
+				"src/media/1.png",
+				"src/media/2.png",
+				"src/media/3.png",
+				"src/media/4.png",
+				"src/media/5.png",
+				"src/media/6.png",
+				"src/media/7.png",
+				"src/media/8.png",
+				"src/media/9.png",
+				"src/media/10.png",
+				"src/media/11.png",
+				"src/media/12.png",
+				"src/media/13.png",
+			]
+		}
+
+		$('#container').addFlexImages(data, true).flexGallery({
+			margin: '1vmin',
+			minHeightRatioWindow: 0.25,
+			fadeInDuration: 2000,
+			checkPeriod: 1000,
+			autoAdjust: true
+		});
+	</script>
+</body>
+
+</html>
