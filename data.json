@@ -1,5 +1,11 @@
 {
-  "images": [],
-  "links": [],
-  "texts": []
+  "images": [
+    "src/media/test.jpg"
+  ],
+  "links": [
+    ""
+  ],
+  "texts": [
+    ""
+  ]
 }
