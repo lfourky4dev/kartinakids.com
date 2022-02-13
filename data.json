@@ -1,11 +1,14 @@
 {
   "images": [
-    "src/media/test.jpg"
+    "src/media/test.jpg",
+    "src/media/testerino.jpg"
   ],
   "links": [
+    "",
     ""
   ],
   "texts": [
+    "",
     ""
   ]
 }
